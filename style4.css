@@ -1,0 +1,49 @@
+body {
+  background-image: url(pic3.png);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+:root {
+  --moduleColour: #ffffff;
+  --moduleCode: 'LE';
+}
+
+#inputBox {
+  position: absolute;
+  top: 140px;
+  left: 800px;
+}
+
+
+#CellText {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+table tbody{
+  background-color: aqua;
+  border: 2px solid black;
+  color: black;
+}
+table td {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.color {
+  background-color: yellow;
+}
+
+.none {
+  color: red;
+}
+
+
+

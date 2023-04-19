@@ -1,0 +1,58 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.75)
+  ,rgba(0,0,0,0.75)),url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+th,td{
+  color: black;
+}
+.data  {
+  color: white;
+}
+
+table {
+  margin: 80px;
+  border-spacing: 0;
+  float: center;
+}
+td {
+  width: 200px;
+  border: 1px solid black;
+  height: 70px;
+  text-align: center;
+}
+
+.rows {
+  background-color: yellow;
+  text-align: center;
+}
+
+th {
+  height: 30px;
+  border: 1px solid black;
+}
+.containers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.box {
+  border: 3px solid #666;
+  background-color: rgba(16, 74, 124, 0.791);
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+  width: 130px;
+  height: 40px;
+  margin-left: 30px;
+}

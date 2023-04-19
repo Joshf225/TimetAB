@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and SignUp page</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <img src="login.jpg" alt="img" class="img">
+        </div>
+        <div class="row">
+            <form action="#" class="form active" id="login">
+                <h2>Time Scheduler Login</h2>
+                <label for="email">Student Email Address</label>
+                <div class="pass-reset" onclick="activeInput(this)">
+                    <input type="email" name="email" class="email" id="emailInput" placeholder="**********@mumail.ie">
+                </div>
+                <label for="password">Password</label>
+                <div class="pass-reset" onclick="activeInput(this)">
+                    <input type="password" class="password" name="password" id="password" placeholder="**********">
+                </div>
+                <div class="pass-reset remember-box">
+                </div>
+                <button class="btn btn-login"><a href="Homepage2.html">Login</a></button>
+                <p>Don't have a MU account? <a onclick="changeToRegister()" id="changeToRegister">Sign up</a></p>
+            </form>
+            <form action="#" class="form" id="register">
+                <h2>Sign up</h2>
+                <label for="email">Student Email Address</label>
+                <div class="pass-reset" onclick="activeInput(this)">
+                    <input type="email" name="email" class="email" id="emailInput" placeholder="**********@othermail.com">
+                </div>
+                <label for="password">Password</label>
+                <div class="pass-reset" onclick="activeInput(this)">
+                    <input type="password" class="password" name="password" id="password" placeholder="**********">
+                </div>
+                <label for="re-password">Re-Password</label>
+                <div class="pass-reset" onclick="activeInput(this)">
+                    <input type="password" class="password" name="re-password" id="re-password" placeholder="**********">
+                </div>
+                <button class="btn btn-login">Sign up</button>
+                <p>Do you have an account? <a onclick="changeToLogin()" id="changeToLogin">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

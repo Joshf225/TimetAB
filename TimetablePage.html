@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimetablePage</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <nav class="navbar sticky-bottom navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Homepage2.html">
+          <img
+            src="logo.png"
+            alt="Logo"
+            width="150"
+            height="50"
+            class="d-inline-block align-text-top"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Homepage2.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="TimetablePage.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <a class="navbar-brand" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-person-circle"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                /></svg
+            ></a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <table>
+      <tr class="rows">
+        <th></th>
+        <th>9:00</th>
+        <th>10:00</th>
+        <th>11:00</th>
+        <th>12:00</th>
+        <th>1:00</th>
+        <th>2:00</th>
+        <th>3:00</th>
+        <th>4:00</th>
+        <th>5:00</th>
+      </tr>
+      <tr>
+        <td bgcolor="yellow">Monday</td>
+        <td class="data">CS264</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS320</td>
+        <td class="data">CS320</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS370</td>
+        <td class="data">----</td>
+      </tr>
+      <tr>
+        <td bgcolor="yellow">Tuesday</td>
+        <td class="data">CS353</td>
+        <td class="data">CS353</td>
+        <td class="data">CS353</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS357</td>
+        <td class="data">----</td>
+      </tr>
+      <tr>
+        <td bgcolor="yellow">Wednsday</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS357</td>
+        <td class="data">CS357</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS320</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+      </tr>
+      <tr>
+        <td bgcolor="yellow">Thursday</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS357</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS310</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+      </tr>
+      <tr>
+        <td bgcolor="yellow">Friday</td>
+        <td class="data">CS310</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">CS320</td>
+        <td class="data">CS357</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+        <td class="data">----</td>
+      </tr>
+    </table>
+    <div class="containers">
+      <div draggable="true" class="box">CS264 Lab</div>
+      <div draggable="true" class="box">CS310 Lab</div>
+      <div draggable="true" class="box">CS353 Lab</div>
+      <div draggable="true" class="box">CS357 Lab</div>
+      <div draggable="true" class="box">CS320 Lab</div>
+      <div draggable="true" class="box">CS370 Lab</div>
+    </div>
+  </body>
+</html>
